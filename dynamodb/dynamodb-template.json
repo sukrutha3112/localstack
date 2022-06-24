@@ -1,0 +1,18 @@
+{
+    "TableName": "demo-table01",
+    "AttributeDefinitions": [{"AttributeName": "ID", "AttributeType": "S"},{"AttributeName": "NAME", "AttributeType": "S"}],
+    "KeySchema":[
+        {
+            "AttributeName": "ID",
+            "KeyType": "HASH"
+        },
+        {
+            "AttributeName": "NAME",
+            "KeyType": "RANGE"
+        }
+    ],
+    "ProvisionedThroughput": {
+        "ReadCapacityUnits": 5,
+        "WriteCapacityUnits": 5
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "demo-table01": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "ID": {"S": "101"},
+                    "NAME": {"S": "Sukrutha"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ID": {"S": "102"},
+                    "NAME": {"S": "Abc"}
+                }
+            }
+
+        }
+    ]
+}
